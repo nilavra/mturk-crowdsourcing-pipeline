@@ -1,0 +1,171 @@
+/**
+ * Created by IntelliJ IDEA.
+ * User: Nilavra Bhattacharya
+ * Date: 2018-04-05
+ * Time: 1:57 AM
+ */
+
+body{ font-family: sans-serif!important;}
+
+li.ins, li.ins li {
+    font-size: 15px;
+    /*color: #007bff;*/
+    /*font-style: italic;*/
+}
+
+li.ins { margin: 6px 0; }
+li.ins li { margin: 3px 0; }
+
+.table{
+    margin-bottom: 0px;
+}
+
+.qsn{
+    font-size: 16px;
+    /*color: #dc3545 !important;*/
+}
+
+ul.ans { padding-left: 25px;}
+
+.ans,
+.ans > li {
+    font-size: 16px;
+    /*color: #28a745 !important;*/
+}
+
+/*.row{ margin-top: 5px;}*/
+
+.tooltip-inner{ font-size: 16px;}
+
+label.btn {
+    font-size: 16px;
+    /*font-weight: bold;*/
+    /*border: 1px solid #000;*/
+    width: 105px;
+    padding: 4px;
+}
+
+.checkbox.ans_choice,
+.radio.ans_choice {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.checkbox.ans_choice:hover,
+.radio.ans_choice:hover{
+    background: #eee;
+}
+
+.radio.ans_choice{
+    /*max-width: 220px;*/
+}
+
+#submitBtn{
+    margin-top: 50px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.motivation{
+    margin-top: 10px;
+    /*margin-bottom: 0px;*/
+    font-size: 17px!important;
+}
+
+.motivation p {
+    margin: 0 0 10px;
+}
+
+
+.checkbox label, .radio label {
+    min-height: 10px;
+}
+
+div.instructions > ul > li {
+    margin-bottom: 7px;
+}
+
+ol.ins-steps {
+    /* delete default counter */
+    list-style-type: none;
+    /* create custom counter and set it to -1 */
+    counter-reset: steps-counter -1;
+}
+
+ol.ins-steps>li:before {
+    /* print out "Element " followed by the current counter value */
+    content: "Step " counter(steps-counter) ": ";
+    /* increment counter */
+    counter-increment: steps-counter;
+    font-weight:bold;
+}
+
+div.border-around{
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+table > tbody > tr:first-child td {
+    padding-top: 15px;
+}
+
+/* --------------------- iviewer -------------------*/
+.iviewer_zoom_zero { display: none; }
+.iviewer_zoom_fit { left: 90px; }
+.iviewer_zoom_status { left: 125px; }
+.iviewer_rotate_left { left: 192px; }
+.iviewer_rotate_right { left: 227px; }
+
+/* ------------------- jquery steps --------------------*/
+
+/* auto changing width of each step */
+.wizard > .content > .body {
+    position: relative !important;
+    padding: 0px;
+}
+
+.wizard > .content {
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.wizard > .content > .body label {
+    margin: 0px;
+}
+
+.wizard > .steps {
+    text-align: center;
+}
+
+.wizard > .steps > ul[role=tablist]{
+    display: block;
+    text-align: center;
+}
+
+.wizard > .steps > ul[role=tablist] > li {
+    width: 7.6923%;
+    text-align: center;
+}
+
+.wizard > .steps .number {
+    display: none;
+}
+
+.wizard > .steps a,
+.wizard > .steps a:hover,
+.wizard > .steps a:active {
+    padding: 5px 1px;
+    border-radius: 1px;
+    margin: 0 5px 0px 0px;
+}
+
+.wizard > .actions {
+    text-align: center;
+}
+
+
