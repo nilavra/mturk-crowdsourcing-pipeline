@@ -1,8 +1,8 @@
 @echo off
-set MTURK_PROJ_PATH="D:\CLOUD STORAGE\Box Sync\_PhD_PROJECTS\06 MAI\MTURK.EXP_01"
+set MTURK_PROJ_PATH="\PATH\TO\LOCAL\PROJECT\FOLDER"
 
-set MTURK_QSN=hit_exp_01.question
-set MTURK_PRP=hit_exp_01.properties
+set MTURK_QSN=hit.question
+set MTURK_PRP=hit.properties
 
 set MTURK_QUAL_NAME=qual_MAI_custom_1
 set MTURK_WORKER_LIST=workerlist.txt
